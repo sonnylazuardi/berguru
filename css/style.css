@@ -36,12 +36,54 @@ h1, h2, h3 {
 	font-family: "NexaBold";
 }
 
-input, .btn {
+input, .btn, textarea {
 	border-radius: 0 !important;
 }
 
 .center {
 	text-align: center;
+}
+
+.bold {
+	font-family: "NexaBold";
+	line-height: 40px;
+}
+
+.table a {
+	color: #ec6c5a;
+}
+
+.table.discuss th {
+	padding-bottom: 0;
+	position: relative;
+}
+
+.table.discuss th.table-gray {
+	background: #58595b;
+}
+
+.table.discuss th.table-gray a {
+	color: #fff;
+}
+
+.table.discuss th.table-gray li.active a, .table.discuss th.table-gray a:hover {
+	color: #58595b;
+}
+
+.table-menu {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+.table.discuss .nav-tabs {
+	border-bottom: none;
+}
+
+.table th.large {
+	font-size: 1.4em;
+	width: 250px;
+	padding-left: 20px;
 }
 
 /* NAVBAR */
@@ -143,6 +185,14 @@ a.navbar-brand {
 .btn-berguru {
 	background: #58595b;
 	color: #fff;
+}
+
+.btn-normal {
+	font-family: "NexaLight";
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 1em;
+	border: 1px solid #ddd;
 }
 
 .btn-red {
@@ -347,6 +397,7 @@ a.navbar-brand {
 .container-white {
 	background: #fff;
 	padding: 50px 0;
+	padding-top: 10px;
 }
 
 /* BOX SPONSOR */
@@ -432,6 +483,74 @@ a.navbar-brand {
 	margin-right: 10px;
 }
 
+.icon-banner-on {
+	background: url('../img/banner-on.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.icon-banner-off {
+	background: url('../img/banner-off.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.icon-plus {
+	background: url('../img/icon-plus.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.icon-list {
+	background: url('../img/icon-list.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+
+.icon-btn-1 {
+	background: url('../img/btn-1.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.icon-btn-2 {
+	background: url('../img/btn-2.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.icon-btn-3 {
+	background: url('../img/btn-3.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.icon-btn-4 {
+	background: url('../img/btn-4.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.icon-btn-5 {
+	background: url('../img/btn-5.png') no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
 .icon-stat {
 	background: url('../img/icon-stat.png') no-repeat;
 	width: 40px;
@@ -461,10 +580,6 @@ a.navbar-brand {
 	margin-right: 10px;
 }
 
-.box-yellow {
-	line-height: 40px;
-}
-
 
 /* BOX */
 
@@ -473,6 +588,24 @@ a.navbar-brand {
 	background: #fef17f;
 	margin-bottom: 20px;
 }
+
+.box-yellow.box-icon {
+	line-height: 40px;
+}
+
+.box-gray {
+	background: #58595b;
+	padding: 10px;
+	line-height: 40px;
+	color: #fff;
+}
+
+.box-gray .title {
+	font-family: "NexaBold";
+	font-size: 1.5em;
+	margin-right: 10px;
+}
+
 .box-overview {
 	padding: 20px;
 	background: #fef17f;
@@ -489,6 +622,12 @@ a.navbar-brand {
 .box-overview h1 {
 	border-bottom: 1px solid #414042;
 }
+
+.course-title {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #9d9d9d;
+}
+
 
 .box-white {
 	background: #fff;
@@ -510,4 +649,25 @@ a.navbar-brand {
 }
 .box-white .desc {
 	font-size: 1.2em;
+}
+
+/* COMPONENT */
+
+.video {
+	margin: 20px 0;
+}
+
+.vote {
+	padding: 10px;
+	display: inline-block;
+	height: 100px;
+	width: 75px;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+.vote .number {
+	font-family: "NexaBold";
+	font-size: 1.8em;
 }
